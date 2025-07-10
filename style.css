@@ -1,0 +1,220 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(141, 100, 180);
+}
+.containar{
+    max-width: 1200px;
+    margin: auto;
+}
+.row{
+    width: 100%;
+}
+.row::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+[class*=col-]{
+    float: left;
+    padding: 15px;
+}
+[class*=col-]{
+    width: 100%;
+}
+
+/* header start hare */
+header{
+    background-color: rgb(58, 109, 93);
+    padding: 0% 1%;
+    text-align: center;
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    color: white;
+    border: 2px solid rgb(244, 244, 244);
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px white;
+    transition: 0.4s;
+}
+.logo img:hover{
+    transform: scale(1.2);
+}
+nav ul li{
+    display: block;
+    list-style-type: none;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(48, 94, 78);
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+nav ul li a:hover{
+    background-color: gray;
+    border-radius: 10px;
+}
+/* header end hare */
+/* bannar section start hare */
+#bannar-section{
+    background-image: url(img/bgimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannar-contant{
+    padding: 30px 10px;
+    text-align: center;
+}
+.bannar-contant h1{
+    width: 100%;
+    margin: 20px auto;
+    font-size: 3rem;
+    color: white;
+}
+.bannar-contant p{
+    width: 300px;
+    margin: 20px auto;
+    background-color: rgb(12, 212, 96);
+    font-size: 1.7rem;
+}
+.btn{
+    font-size: 1.3rem;
+    background-color: rgb(14, 116, 194);
+    border:none;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+.btn:hover{
+    background-color: rgb(231, 13, 13);
+    transform: scale(1.2);
+}
+/* bannar section end hare */
+/* about section start hare */
+#about-us{
+    padding: 1%;
+}
+.about-us-contant{
+    text-align: center;
+}
+.about-us-contant h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight:bolder;
+}
+.about-us-contant p{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+/* about section end hare */
+/* food menu start hare */
+#food-menu{
+    padding: 1%;
+    
+}
+.card-img{
+    text-align: center;
+}
+.card-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.card-desc{
+    background-color: gray;
+}
+.item-name{
+    text-transform: capitalize;
+    font-size: 1.9rem;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+}
+.card-desc > p{
+    font-size: 1rem;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 5px;
+}
+.card{
+    transition:0.4s ;
+    box-shadow: 0 0 10px black;
+}
+
+
+/* food menu end hare */
+/* contact section start hare */
+#contact{
+    padding: 1%;
+    background-color: rgb(35, 95, 95);
+}
+.map{
+    width: 100%;
+    height:450px;
+}
+.contact-details{
+    padding: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+
+}
+.contact-details h2{
+    font-size: 1.5rem;
+}
+.contact-details h4,h5{
+    font-size: 1.1rem;
+}
+.contact-details p,address{
+    font-size: 1rem;
+}
+/* contact section end hare */
+/* footer start hare */
+footer{
+    padding: 1%;
+    background-color: rgb(40, 128, 100);
+    color: white;
+}
+footer p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: .8rem;
+}
+.social-icon{
+    text-align: center;
+}
+.icon{
+    background-color: rgb(238, 102, 5);
+    color: white;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: 0 15px;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    transition: .4s;
+}
+.icon:hover{
+    background-color: gray;
+    transform: scale(1.2);
+}
+/* footer end hare */

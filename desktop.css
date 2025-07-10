@@ -1,0 +1,97 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* header start hare */
+.logo{
+    text-align: left;
+}
+nav{
+    text-align: right;
+    margin-top: 15px
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    background-color: transparent;
+}
+nav ul li a:hover{
+    background-color: transparent;
+    text-decoration: underline;
+    transform: scale(1.3)
+}
+/* header end hare */
+/* banner section start */
+#bannar-section{
+    position: relative;
+    height: 130vh;
+}
+.bannar-contant{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bannar-contant h1{
+    width: 700px;
+    font-size: 3.6rem;
+    margin-bottom: 60px;
+}
+.bannar-contant p{
+    width: 500px;
+    font-size: 2rem;
+}
+.btn{
+    margin-top: 40px;
+    background-color: chartreuse;
+    animation: btn .4s infinite ease-in-out;
+}
+@keyframes btn {
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: white;
+    }
+}
+/* foog section start hare */
+.card-img img{
+    width: 400px;
+    height: 250px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+/* foog section end hare */
+
+/* banner section end */
+/* contact section start  */
+.contact-details{
+    margin-top: 40%;
+}
+/* contact section end  */
+/* footer start hare */
+footer p{
+    text-align: left;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+.social-icon{
+    text-align: right;
+    margin-bottom: 1px;
+}
+
+/* footer end hare */
